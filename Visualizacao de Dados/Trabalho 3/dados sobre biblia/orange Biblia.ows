@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="CSV File Import" position="(324.0, 207.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" title="CSV File Import" version="" />
+		<node id="1" name="MDS" position="(622.0, 221.0)" project_name="Orange3" qualified_name="Orange.widgets.unsupervised.owmds.OWMDS" title="MDS" version="" />
+		<node id="2" name="Data Table" position="(436.0, 102.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="3" name="Distances" position="(486.0, 214.0)" project_name="Orange3" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" title="Distances" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="2" sink_channel="Distances" sink_node_id="1" source_channel="Distances" source_node_id="3" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'_session_items': [('C:/Users/Eric/Documents/GitHub/mineiracao_dados_complexos/Visualizacao de Dados/Trabalho 3/dados sobre biblia/versao 6 livros tfidf.csv', {'encoding': 'iso8859-1', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Categorical'}, {'start': 1, 'stop': 8, 'value': 'Numeric'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ('C:/Users/Eric/Documents/GitHub/mineiracao_dados_complexos/Visualizacao de Dados/Trabalho 2/Periodic Table of Elements.csv', {'encoding': 'iso8859-1', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Numeric'}, {'start': 1, 'stop': 2, 'value': 'Categorical'}, {'start': 2, 'stop': 3, 'value': 'Text'}, {'start': 3, 'stop': 4, 'value': 'Numeric'}, {'start': 4, 'stop': 9, 'value': 'Categorical'}, {'start': 9, 'stop': 17, 'value': 'Numeric'}, {'start': 17, 'stop': 18, 'value': 'Categorical'}, {'start': 18, 'stop': 20, 'value': 'Numeric'}, {'start': 20, 'stop': 21, 'value': 'Text'}, {'start': 21, 'stop': 23, 'value': 'Numeric'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/Eric/Documents/GitHub/mineiracao_dados_complexos/Visualizacao de Dados/Trabalho 3/dados sobre biblia', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x03\x1c\x00\x00\x01f\x00\x00\x04t\x00\x00\x02\xe2\x00\x00\x03%\x00\x00\x01\x8c\x00\x00\x04k\x00\x00\x02\xd9\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80', '__version__': 1}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgSAAAAY29udHJvbEFyZWFWaXNpYmxlcQKIWA4AAABp
+bml0aWFsaXphdGlvbnEDSwBYCAAAAG1heF9pdGVycQRNLAFYDAAAAHJlZnJlc2hfcmF0ZXEFSwBY
+EwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxBkMyAdnQywACAAAAAABPAAAAnAAABnsAAAPjAAAAWAAA
+AMIAAAZyAAAD2gAAAAAAAAAAB4BxB1gJAAAAc2VsZWN0aW9ucQhOWAUAAABncmFwaHEJfXEKKFgL
+AAAAYWxwaGFfdmFsdWVxC0uAWA0AAABjbGFzc19kZW5zaXR5cQyJWA8AAABjb25uZWN0ZWRfcGFp
+cnNxDUsFWAsAAABqaXR0ZXJfc2l6ZXEOSwRYEwAAAGxhYmVsX29ubHlfc2VsZWN0ZWRxD4lYCwAA
+AHBvaW50X3dpZHRocRBLClgJAAAAc2hvd19ncmlkcRGJWAsAAABzaG93X2xlZ2VuZHESiXVYCwAA
+AF9fdmVyc2lvbl9fcRNLA1gQAAAAY29udGV4dF9zZXR0aW5nc3EUXXEVKGNvcmFuZ2V3aWRnZXQu
+c2V0dGluZ3MKQ29udGV4dApxFimBcRd9cRgoWAYAAAB2YWx1ZXNxGX1xGihYCgAAAGF0dHJfY29s
+b3JxG1gKAAAAVW5uYW1lZDogMHEcS2WGcR1YCgAAAGF0dHJfbGFiZWxxHmgcS2WGcR9YCgAAAGF0
+dHJfc2hhcGVxIE5K/v///4ZxIVgJAAAAYXR0cl9zaXplcSJOSv7///+GcSNoCX1xJGgTSwN1WAoA
+AABhdHRyaWJ1dGVzcSV9cSYoaBxLAVgJAAAARXNww61yaXRvcSdLAlgEAAAARGV1c3EoSwJYBgAA
+AEplb3bDoXEpSwJYCgAAAEplcnVzYWzDqW1xKksCWAYAAABTZW5ob3JxK0sCWAUAAABKZXN1c3Es
+SwJYBQAAAEVnaXRvcS1LAnVYBQAAAG1ldGFzcS59cS91YmgWKYFxMH1xMShoGX1xMihoG2gcS2WG
+cTNoHmgcS2WGcTRoIE5K/v///4ZxNWgiTkr+////hnE2aAl9cTdoE0sDdWglfXE4KGgcSwFoJ0sC
+aChLAmgpSwJoKksCaCtLAmgsSwJoLUsCdWgufXE5dWJoFimBcTp9cTsoaBl9cTwoaBtYBgAAAEpl
+b3bDoXE9S2aGcT5oHk5K/v///4ZxP2ggWAgAAABTZWxlY3RlZHFAS2WGcUFoIk5K/v///4ZxQmgJ
+fXFDaBNLA3VoJX1xRChYCQAAAEVzcMOtcml0b3FFSwJYBAAAAERldXNxRksBaD1LAlgKAAAASmVy
+dXNhbMOpbXFHSwJYBgAAAFNlbmhvcnFISwFYBQAAAEplc3VzcUlLAlgFAAAARWdpdG9xSksCaEBL
+AXVoLn1xS1gKAAAAVW5uYW1lZDogMHFMSwNzdWJoFimBcU19cU4oaBl9cU8oaBtOSv7///+GcVBo
+Hk5K/v///4ZxUWggTkr+////hnFSaCJOSv7///+GcVNoCX1xVGgTSwN1aCV9cVUoaCdLAmgoSwJo
+KUsCaCpLAmgrSwJoLEsCaC1LAnVoLn1xVnViaBYpgXFXfXFYKGgZfXFZKGgbaBxLZYZxWmgeaBxL
+ZYZxW2ggTkr+////hnFcaCJOSv7///+GcV1oCX1xXmgTSwN1aCV9cV8oaBxLAWgnSwJoKEsCaClL
+AmgqSwJoK0sCaCxLAmgtSwJ1aC59cWB1YmgWKYFxYX1xYihoGX1xYyhoG2hAS2WGcWRoHmgcS2WG
+cWVoIGgcS2WGcWZoIlgGAAAAU3RyZXNzcWdK/v///4ZxaGgJfXFpaBNLA3VoJX1xaihoHEsBaCdL
+AmgoSwJoKUsCaCpLAmgrSwJoLEsCaC1LAmhASwF1aC59cWt1YmgWKYFxbH1xbShoGX1xbihoG05K
+/v///4Zxb2geTkr+////hnFwaCBoQEtlhnFxaCJOSv7///+GcXJoCX1xc2gTSwN1aCV9cXQoWAkA
+AABFc3DDrXJpdG9xdUsCWAQAAABEZXVzcXZLAlgGAAAASmVvdsOhcXdLAlgKAAAASmVydXNhbMOp
+bXF4SwJYBgAAAFNlbmhvcnF5SwJYBQAAAEplc3VzcXpLAlgFAAAARWdpdG9xe0sCaEBLAXVoLn1x
+fFgKAAAAVW5uYW1lZDogMHF9SwNzdWJoFimBcX59cX8oaBl9cYAoaBtoQEtlhnGBaB5OSv7///+G
+cYJoIGhAS2WGcYNoIk5K/v///4ZxhGgJfXGFaBNLA3VoJX1xhihodUsCaHZLAmh3SwJoeEsCaHlL
+Amh6SwJoe0sCaEBLAXVoLn1xh2h9SwNzdWJoFimBcYh9cYkoaBl9cYooaBtoQEtlhnGLaB5OSv7/
+//+GcYxoIGhAS2WGcY1oIk5K/v///4ZxjmgJfXGPaBNLA3VoJX1xkChodUsCaHZLAmh3SwJoeEsC
+aHlLAmh6SwJoe0sCaEBLAXVoLn1xkWh9SwNzdWJoFimBcZJ9cZMoaBl9cZQoaBtoQEtlhnGVaB5O
+Sv7///+GcZZoIGhAS2WGcZdoIk5K/v///4ZxmGgJfXGZaBNLA3VoJX1xmihYCQAAAEVzcMOtcml0
+b3GbSwJYBAAAAERldXNxnEsCWAYAAABKZW92w6FxnUsCWAoAAABKZXJ1c2Fsw6ltcZ5LAlgGAAAA
+U2VuaG9ycZ9LAlgFAAAASmVzdXNxoEsCWAUAAABFZ2l0b3GhSwJoQEsBdWgufXGiWAoAAABVbm5h
+bWVkOiAwcaNLA3N1YmV1Lg==
+</properties>
+		<properties format="literal" node_id="2">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01\x18\x00\x00\x00\xe5\x00\x00\x06:\x00\x00\x03\xf1\x00\x00\x01!\x00\x00\x01\x0b\x00\x00\x061\x00\x00\x03\xe8\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': True, '__version__': 1}</properties>
+		<properties format="literal" node_id="3">{'autocommit': True, 'axis': 0, 'controlAreaVisible': True, 'metric_idx': 0, 'normalized_dist': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\xf9\x00\x00\x01\x9c\x00\x00\x03\xbd\x00\x00\x02\xb2\x00\x00\x03\x02\x00\x00\x01\xc2\x00\x00\x03\xb4\x00\x00\x02\xa9\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80', '__version__': 3}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

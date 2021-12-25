@@ -1,0 +1,1099 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.0917.1006                               -->
+<workbook source-build='2021.3.1 (20213.21.0917.1006)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Periodic Table of Elements' inline='true' name='federated.0wua84m0j9ohq01f661jx1fuh1mk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Periodic Table of Elements' name='textscan.00ff9be0di7wlq15cczyb0k7cxbs'>
+            <connection class='textscan' directory='C:/Users/Eric/Documents/GitHub/mineiracao_dados_complexos/Visualizacao de Dados/Trabalho 2' filename='Periodic Table of Elements.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.00ff9be0di7wlq15cczyb0k7cxbs' name='Periodic Table of Elements.csv' table='[Periodic Table of Elements#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Atomic Number' ordinal='0' />
+            <column datatype='string' name='Element' ordinal='1' />
+            <column datatype='string' name='Symbol' ordinal='2' />
+            <column datatype='real' name='Atomic Weight' ordinal='3' />
+            <column datatype='integer' name='Period' ordinal='4' />
+            <column datatype='integer' name='Group' ordinal='5' />
+            <column datatype='string' name='Phase' ordinal='6' />
+            <column datatype='string' name='Most Stable Crystal' ordinal='7' />
+            <column datatype='string' name='Type' ordinal='8' />
+            <column datatype='real' name='Ionic Radius' ordinal='9' />
+            <column datatype='real' name='Atomic Radius' ordinal='10' />
+            <column datatype='real' name='Electronegativity' ordinal='11' />
+            <column datatype='real' name='First Ionization Potential' ordinal='12' />
+            <column datatype='real' name='Density' ordinal='13' />
+            <column datatype='real' name='Melting Point (K)' ordinal='14' />
+            <column datatype='real' name='Boiling Point (K)' ordinal='15' />
+            <column datatype='integer' name='Isotopes' ordinal='16' />
+            <column datatype='string' name='Discoverer' ordinal='17' />
+            <column datatype='integer' name='Year of Discovery' ordinal='18' />
+            <column datatype='real' name='Specific Heat Capacity' ordinal='19' />
+            <column datatype='string' name='Electron Configuration' ordinal='20' />
+            <column datatype='integer' name='Display Row' ordinal='21' />
+            <column datatype='integer' name='Display Column' ordinal='22' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.00ff9be0di7wlq15cczyb0k7cxbs' name='Periodic Table of Elements.csv' table='[Periodic Table of Elements#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Atomic Number' ordinal='0' />
+            <column datatype='string' name='Element' ordinal='1' />
+            <column datatype='string' name='Symbol' ordinal='2' />
+            <column datatype='real' name='Atomic Weight' ordinal='3' />
+            <column datatype='integer' name='Period' ordinal='4' />
+            <column datatype='integer' name='Group' ordinal='5' />
+            <column datatype='string' name='Phase' ordinal='6' />
+            <column datatype='string' name='Most Stable Crystal' ordinal='7' />
+            <column datatype='string' name='Type' ordinal='8' />
+            <column datatype='real' name='Ionic Radius' ordinal='9' />
+            <column datatype='real' name='Atomic Radius' ordinal='10' />
+            <column datatype='real' name='Electronegativity' ordinal='11' />
+            <column datatype='real' name='First Ionization Potential' ordinal='12' />
+            <column datatype='real' name='Density' ordinal='13' />
+            <column datatype='real' name='Melting Point (K)' ordinal='14' />
+            <column datatype='real' name='Boiling Point (K)' ordinal='15' />
+            <column datatype='integer' name='Isotopes' ordinal='16' />
+            <column datatype='string' name='Discoverer' ordinal='17' />
+            <column datatype='integer' name='Year of Discovery' ordinal='18' />
+            <column datatype='real' name='Specific Heat Capacity' ordinal='19' />
+            <column datatype='string' name='Electron Configuration' ordinal='20' />
+            <column datatype='integer' name='Display Row' ordinal='21' />
+            <column datatype='integer' name='Display Column' ordinal='22' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;windows-1252&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Atomic Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Atomic Number]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Atomic Number</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Element</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Element]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Element</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Symbol</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Symbol]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Symbol</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Atomic Weight</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Atomic Weight]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Atomic Weight</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Period</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Period]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Period</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Group</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Group]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Group</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Phase</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Phase]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Phase</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Most Stable Crystal</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Most Stable Crystal]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Most Stable Crystal</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ionic Radius</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ionic Radius]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Ionic Radius</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Atomic Radius</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Atomic Radius]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Atomic Radius</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electronegativity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electronegativity]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Electronegativity</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>First Ionization Potential</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[First Ionization Potential]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>First Ionization Potential</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Density]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Density</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Melting Point (K)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Melting Point (K)]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Melting Point (K)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Boiling Point (K)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Boiling Point (K)]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Boiling Point (K)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Isotopes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Isotopes]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Isotopes</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discoverer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Discoverer]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Discoverer</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year of Discovery</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year of Discovery]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Year of Discovery</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Specific Heat Capacity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Specific Heat Capacity]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Specific Heat Capacity</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electron Configuration</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Electron Configuration]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Electron Configuration</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Display Row</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Display Row]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Display Row</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Display Column</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Display Column]</local-name>
+            <parent-name>[Periodic Table of Elements.csv]</parent-name>
+            <remote-alias>Display Column</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Atomic Number]' role='dimension' type='ordinal' />
+      <column caption='num elements' datatype='integer' name='[Calculation_1271985445088817152]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='count([Element])' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Periodic Table of Elements.csv' datatype='table' name='[__tableau_internal_object_id__].[Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/Eric/Documents/GitHub/mineiracao_dados_complexos/Visualizacao de Dados/Trabalho 2/Periodic Table of Elements.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Atomic Number</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Atomic Number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Atomic Number</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>118</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Element</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Element]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Element</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>118</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Symbol</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Symbol]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Symbol</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>118</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Atomic Weight</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Atomic Weight]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Atomic Weight</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>115</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Period</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Period]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Period</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Group</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Group</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Phase</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Phase]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Phase</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Most Stable Crystal</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Most Stable Crystal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Most Stable Crystal</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Type</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ionic Radius</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Ionic Radius]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ionic Radius</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>57</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Atomic Radius</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Atomic Radius]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Atomic Radius</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Electronegativity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Electronegativity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Electronegativity</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>67</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>First Ionization Potential</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[First Ionization Potential]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>First Ionization Potential</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>103</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Density</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Density]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Density</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>105</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Melting Point (K)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Melting Point (K)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Melting Point (K)</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Boiling Point (K)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Boiling Point (K)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Boiling Point (K)</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Isotopes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Isotopes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Isotopes</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Discoverer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Discoverer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Discoverer</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year of Discovery</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year of Discovery]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year of Discovery</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>70</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Specific Heat Capacity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Specific Heat Capacity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Specific Heat Capacity</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>80</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Electron Configuration</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Electron Configuration]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Electron Configuration</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>96</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Display Row</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Display Row]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Display Row</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Display Column</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Display Column]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Display Column</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Periodic Table of Elements.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brazil&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Atomic Number' />
+        <field-sort-custom-order field='Element' />
+        <field-sort-custom-order field='Calculation_1271985445088817152' />
+        <field-sort-custom-order field='Symbol' />
+        <field-sort-custom-order field='Atomic Weight' />
+        <field-sort-custom-order field='Period' />
+        <field-sort-custom-order field='Group' />
+        <field-sort-custom-order field='Phase' />
+        <field-sort-custom-order field='Most Stable Crystal' />
+        <field-sort-custom-order field='Type' />
+        <field-sort-custom-order field='Ionic Radius' />
+        <field-sort-custom-order field='Atomic Radius' />
+        <field-sort-custom-order field='Electronegativity' />
+        <field-sort-custom-order field='First Ionization Potential' />
+        <field-sort-custom-order field='Density' />
+        <field-sort-custom-order field='Melting Point (K)' />
+        <field-sort-custom-order field='Boiling Point (K)' />
+        <field-sort-custom-order field='Isotopes' />
+        <field-sort-custom-order field='Discoverer' />
+        <field-sort-custom-order field='Year of Discovery' />
+        <field-sort-custom-order field='Specific Heat Capacity' />
+        <field-sort-custom-order field='Electron Configuration' />
+        <field-sort-custom-order field='Display Row' />
+        <field-sort-custom-order field='Display Column' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Periodic Table of Elements.csv' id='Periodic Table of Elements.csv_569A99F78CA945009A7C516256275EC1'>
+            <properties context=''>
+              <relation connection='textscan.00ff9be0di7wlq15cczyb0k7cxbs' name='Periodic Table of Elements.csv' table='[Periodic Table of Elements#csv]' type='table'>
+                <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Atomic Number' ordinal='0' />
+                  <column datatype='string' name='Element' ordinal='1' />
+                  <column datatype='string' name='Symbol' ordinal='2' />
+                  <column datatype='real' name='Atomic Weight' ordinal='3' />
+                  <column datatype='integer' name='Period' ordinal='4' />
+                  <column datatype='integer' name='Group' ordinal='5' />
+                  <column datatype='string' name='Phase' ordinal='6' />
+                  <column datatype='string' name='Most Stable Crystal' ordinal='7' />
+                  <column datatype='string' name='Type' ordinal='8' />
+                  <column datatype='real' name='Ionic Radius' ordinal='9' />
+                  <column datatype='real' name='Atomic Radius' ordinal='10' />
+                  <column datatype='real' name='Electronegativity' ordinal='11' />
+                  <column datatype='real' name='First Ionization Potential' ordinal='12' />
+                  <column datatype='real' name='Density' ordinal='13' />
+                  <column datatype='real' name='Melting Point (K)' ordinal='14' />
+                  <column datatype='real' name='Boiling Point (K)' ordinal='15' />
+                  <column datatype='integer' name='Isotopes' ordinal='16' />
+                  <column datatype='string' name='Discoverer' ordinal='17' />
+                  <column datatype='integer' name='Year of Discovery' ordinal='18' />
+                  <column datatype='real' name='Specific Heat Capacity' ordinal='19' />
+                  <column datatype='string' name='Electron Configuration' ordinal='20' />
+                  <column datatype='integer' name='Display Row' ordinal='21' />
+                  <column datatype='integer' name='Display Column' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Analise Exploratória - Elementos Tabela Periódica</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Periodic Table of Elements' name='federated.0wua84m0j9ohq01f661jx1fuh1mk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wua84m0j9ohq01f661jx1fuh1mk'>
+            <column datatype='real' name='[Atomic Radius]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Atomic Weight]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Boiling Point (K)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Density]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Electronegativity]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Phase]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Symbol]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column-instance column='[Phase]' derivation='Attribute' name='[attr:Phase:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Atomic Radius]' derivation='None' name='[none:Atomic Radius:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Atomic Weight]' derivation='None' name='[none:Atomic Weight:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Boiling Point (K)]' derivation='None' name='[none:Boiling Point (K):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Density]' derivation='None' name='[none:Density:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Electronegativity]' derivation='None' name='[none:Electronegativity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Symbol]' derivation='None' name='[none:Symbol:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='12' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <color column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Type:nk]' />
+              <tooltip column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[attr:Phase:nk]' />
+              <text column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Symbol:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='13' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Atomic Radius:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <color column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Type:nk]' />
+              <tooltip column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[attr:Phase:nk]' />
+              <text column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Symbol:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='14' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Atomic Weight:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <color column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Type:nk]' />
+              <tooltip column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[attr:Phase:nk]' />
+              <text column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Symbol:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='15' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Boiling Point (K):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <color column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Type:nk]' />
+              <tooltip column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[attr:Phase:nk]' />
+              <text column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Symbol:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Electronegativity:qk] + [federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Density:qk])</rows>
+        <cols>([federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Atomic Radius:qk] + ([federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Atomic Weight:qk] + [federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Boiling Point (K):qk]))</cols>
+      </table>
+      <simple-id uuid='{2ACDA6DD-5094-4C1F-B1B8-D074DB38FA31}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Periodic Table of Elements' name='federated.0wua84m0j9ohq01f661jx1fuh1mk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wua84m0j9ohq01f661jx1fuh1mk'>
+            <column datatype='real' name='[Boiling Point (K)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Display Column]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Display Row]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Phase]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Type]' role='dimension' type='nominal' />
+            <column-instance column='[Display Column]' derivation='None' name='[none:Display Column:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Display Row]' derivation='None' name='[none:Display Row:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Phase]' derivation='None' name='[none:Phase:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Type]' derivation='None' name='[none:Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Boiling Point (K)]' derivation='Sum' name='[sum:Boiling Point (K):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Display Row:qk]' field-type='quantitative' reverse='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Type:nk]' />
+              <size column='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[sum:Boiling Point (K):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Display Row:qk]</rows>
+        <cols>([federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Phase:nk] * [federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Display Column:qk])</cols>
+      </table>
+      <simple-id uuid='{AF0E5028-9855-44DB-82AB-F77635EB036A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Sheet 1' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone fixed-size='297' h='38125' id='8' is-fixed='true' name='Sheet 1' pane-specification-id='13' param='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Type:nk]' type-v2='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='9' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Sheet 1' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='297' h='38125' id='8' name='Sheet 1' pane-specification-id='13' param='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Type:nk]' type-v2='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B17DA02C-9EE5-4F0D-86DE-397B936DAEE1}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='88'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='13' param='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{B7363B0F-99B3-4633-A439-49E932196074}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[none:Type:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0wua84m0j9ohq01f661jx1fuh1mk].[sum:Boiling Point (K):qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E9F51C35-C0AA-429B-A67F-694B8CEC0B27}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{EA947B35-032F-4C54-B238-89ACDDAE57A0}' />
+    </window>
+  </windows>
+</workbook>
