@@ -1,0 +1,6 @@
+"","Etapa","Tamanho do Dataframe","N de linhas deletadas","% Deletada"
+"1","Dataframe Original",311780,0,0
+"2","Remoção - [ERRO] Sensação Térmica",289699,22081,7.08223747514273
+"3","Remoção - Outliers Umidade",284765,3458,8.66476361536981
+"4","Remoção - Outliers Sensação Térmica = 99.9",284632,133,8.70742190005773
+"5","Remoção - Valores repetidos por mais de um dia",275491,9141,11.6392969401501
